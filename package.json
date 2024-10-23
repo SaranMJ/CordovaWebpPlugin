@@ -1,0 +1,19 @@
+{
+    "name": "cordova-plugin-image-compression",
+    "version": "0.0.1",
+    "description": "A plugin for Compressed the size of base64 image string",
+    "main": "www/IMGCMPBase64.js",
+    "keywords": [
+      "cordova",
+      "mantra",
+      "rdservice"
+    ],
+    "author": "SysArc/Hariharasudhan",
+    "cordova": {
+      "platforms": [
+        "android"
+      ]
+    },
+    "dependencies": {}
+}
+  

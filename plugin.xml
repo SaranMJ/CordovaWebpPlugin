@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin id="com.imgcmpbase64.plugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>IMGCMPBase64</name>
+    <description>A plugin for Compressed the size of base64 image string</description>
+    <engines>
+      <engine name="cordova" version=">=5.0.0" />
+    </engines>
+
+    <js-module src="www/IMGCMPBase64.js" name="IMGCMPBase64">
+        <clobbers target="IMGCMPBase64"/>
+    </js-module>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="IMGCMPBase64">
+                <param name="android-package" value="com.imgcmpbase64.plugin.IMGCMPBase64"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/IMGCMPBase64.java" target-dir="src/com/imgcmpbase64/plugin"/>
+    </platform>
+</plugin>
