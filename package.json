@@ -8,11 +8,15 @@
       "mantra",
       "rdservice"
     ],
-    "author": "SysArc/Hariharasudhan",
+    "author": "SysArc/Saravanan",
     "cordova": {
       "platforms": [
         "android"
       ]
+    },
+        "repository": {
+      "type": "git",
+      "url": "https://github.com/yourusername/your-repo.git" 
     },
     "dependencies": {}
 }
